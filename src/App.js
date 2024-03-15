@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';// Importing 'useState' hook
+import Header from './header.js';//Importing Header componet
+import Footer from './footer.js';//Importing Footer componet
+import FruitsList from './fruitsList.js'; //Importing FruitsList componet
 
+// Main application component
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* Rendering the header component and passing cart items as property */}
+      <Header cartItems={cartItems} />
+      <div className="layout">
+        {/* Rendering the FruitsList component and passing setCartItems function as property */}
+        <FruitsList setCartItems={setCartItems} />
+      </div>
+      {/* Rendering the Footer component */}
+      <Footer />
     </div>
   );
 }
 
+// Export the App component
 export default App;
+
+

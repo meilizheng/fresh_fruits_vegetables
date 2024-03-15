@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Fruits",
+        "image": "fruits.jpg",
+        "subtitle": "Healthy and Refreshing",
+        "description": "Fruits are an essential part of a balanced diet, providing vitamins, minerals, and fiber for overall health and well-being.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Apples",
+        "image": "apples.jpg",
+        "price": 2,
+        "subtitle": "Delicious and Nutritious",
+        "description": "Apples are a popular fruit known for their sweet taste and numerous health benefits.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Bananas",
+        "image": "bananas.jpg",
+        "price": 0.99,
+        "subtitle": "Tropical Delight",
+        "description": "Bananas are a tropical fruit loved for their creamy texture and rich flavor.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Grapes",
+        "image": "grapes.jpg",
+        "price": 1.99,
+        "subtitle": "Nature's Candy",
+        "description": "Grapes are small, juicy fruits that come in a variety of colors and flavors, offering a delightful snacking experience.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Strawberry",
+        "image": "strawberry.jpg",
+        "price": 2.99,
+        "subtitle": "Sweet and Juicy",
+        "description": "Strawberries are a beloved fruit cherished for their vibrant color, sweet taste, and juicy texture.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Vegetables",
+        "image": "vegetables.jpg",
+        "subtitle": "Nutrient Powerhouse",
+        "description": "Vegetables are packed with essential nutrients, including vitamins, minerals, and antioxidants, promoting good health and vitality.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Dairy",
+        "image": "dairy.jpg",
+        "subtitle": "Calcium-Rich Goodness",
+        "description": "Dairy products such as milk, cheese, and yogurt are excellent sources of calcium, essential for strong bones and teeth.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    },
+    {
+        "title": "Grain",
+        "image": "grain.jpg",
+        "subtitle": "Essential for a Balanced Diet",
+        "description": "Grains are a vital component of a balanced diet, providing essential nutrients such as carbohydrates, fiber, vitamins, and minerals. They are a rich source of energy and play a crucial role in supporting overall health and well-being.",
+        "onAddToCart": "",
+        "removeFromCart": ""
+    }
+]
